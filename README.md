@@ -54,11 +54,11 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
 
    ```
 
-   git commit -m "Initial commit"
+   git commit -m "Asuraa"
 
    ```
 
-   Replace "Initial commit" with a descriptive message for the changes you've made.
+   Replace "Asuraa" with a descriptive message for the changes you've made.
 
 7. Create a new GitHub repository or navigate to an existing repository where you want to upload your files.
 
@@ -87,22 +87,22 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
 
     ```
 
-    git push -u origin main
+    git push -u origin Master
 
     ```
 
-    Replace `main` with the name of your branch.
+    Replace `Master` with the name of your branch.
  
  
 💡 If you get this error `error: src refspec main does not match any` when using the `git push` command then run:
 
     
 
-    git checkout -b main
+    git checkout -b Master
 
     
 
-Replace `main` with the name of your branch.
+Replace `Master` with the name of your branch.
 
 After running these commands, your folder and its files will be uploaded to your GitHub repository. You can check your repository on the GitHub website to confirm that the files have been uploaded successfully.
 
