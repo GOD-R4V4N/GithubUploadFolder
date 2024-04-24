@@ -41,7 +41,12 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
    git init
 
    ```
-
+6. Add File Path
+   
+  ```
+  git config --global --add safe.directory <FolderPath>
+  
+  ```
 5. Add the files in the folder to the Git repository using the `git add .` command:
 
    ```
@@ -86,9 +91,9 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
 11. Push the files to the remote repository using the `git push` command:
 
     ```
-
-    git push -u origin Master
-
+    git config http.postBuffer 524288000
+    git push --set-upstream origin master
+    
     ```
 
     Replace `Master` with the name of your branch.
