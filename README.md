@@ -103,11 +103,11 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
 
     
 
-    git checkout -b Master
+    git checkout -b master
 
     
 
-Replace `Master` with the name of your branch.
+Replace `master` with the name of your branch.
 
 After running these commands, your folder and its files will be uploaded to your GitHub repository. You can check your repository on the GitHub website to confirm that the files have been uploaded successfully.
 
