@@ -95,7 +95,7 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
     git push --set-upstream origin master
     
     ```
-12. If 11 number command you run
+12. If number 11 is not working then enter this command
     
     ```
 
