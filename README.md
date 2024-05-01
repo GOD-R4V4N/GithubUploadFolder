@@ -95,7 +95,7 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
     git push --set-upstream origin master
     
     ```
-                      Or 
+                     Or 
     ```
 
     git config http.postBuffer 524288000
