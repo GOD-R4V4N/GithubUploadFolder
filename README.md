@@ -78,17 +78,8 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
    ```
 
    Replace `<SSH or HTTPS URL>` with the URL of your GitHub repository.
-   
-10. Add Github Personal Access Tokens using the `git remote set-url origin` command:
 
-
-
-    ```
-    git remote set-url origin https://<AccessToken>@github.com/<UserName>/<RepoName>
-    
-    ```
-
-11. Push the files to the remote repository using the `git push` command:
+10. Push the files to the remote repository using the `git push` command:
     
     ```
 
