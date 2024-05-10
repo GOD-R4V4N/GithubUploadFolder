@@ -26,7 +26,12 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
 
    Follow the prompts to enter your GitHub username and password. If you have two-factor authentication (2FA) enabled on your account, you will be prompted to enter a verification code.
 
-3. And 4. are comming soon 
+3. Add your Github Account Email using the `git config --global user.email` command:
+   ```
+   
+   git config --global user.email "you@example.com"
+   
+   ```
 
 
 5. Navigate to the folder you want to upload to your GitHub repository using the `cd` command:
