@@ -26,7 +26,9 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
 
    Follow the prompts to enter your GitHub username and password. If you have two-factor authentication (2FA) enabled on your account, you will be prompted to enter a verification code.
 
-4. Navigate to the folder you want to upload to your GitHub repository using the `cd` command:
+3. And 4. are comming soon 
+
+5. Navigate to the folder you want to upload to your GitHub repository using the `cd` command:
 
    ```
 
@@ -34,7 +36,7 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
 
    ```
 
-5. Initialize a Git repository in the folder using the `git init` command:
+6. Initialize a Git repository in the folder using the `git init` command:
 
    ```
 
@@ -42,14 +44,14 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
 
    ```
 
-6. Add Folder Path on Git repository using the 
+7. Add Folder Path on Git repository using the 
    `git config --global --add safe.directory`  command:
   ```
   git config --global --add safe.directory <FolderPath>
   
   ```
 
-7. Add the files in the folder to the Git repository using the `git add .` command:
+8. Add the files in the folder to the Git repository using the `git add .` command:
 
    ```
 
@@ -57,7 +59,7 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
 
    ```
 
-8. Commit the changes using the `git commit` command:
+9. Commit the changes using the `git commit` command:
 
    ```
 
@@ -67,11 +69,11 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
 
    Replace "Asuraa" with a descriptive message for the changes you've made.
 
-9. Create a new GitHub repository or navigate to an existing repository where you want to upload your files.
+10. Create a new GitHub repository or navigate to an existing repository where you want to upload your files.
 
-10. Copy the SSH or HTTPS URL of your GitHub repository.
+11. Copy the SSH or HTTPS URL of your GitHub repository.
 
-11. Add your GitHub repository as the remote repository for your local Git repository using the `git remote add origin` command:
+12. Add your GitHub repository as the remote repository for your local Git repository using the `git remote add origin` command:
 
    ```
 
@@ -81,7 +83,7 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
 
    Replace `<SSH or HTTPS URL>` with the URL of your GitHub repository.
 
-12. Push the files to the remote repository using the `git push` command:
+13. Push the files to the remote repository using the `git push` command:
     
     ```
 
