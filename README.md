@@ -43,11 +43,12 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
    ```
 
 6. Add Folder Path on Git repository using the 
-   `git config --global --add safe.directory /storage/emulated/0/Download/FileName` command:
+   `git config --global --add safe.directory`  command:
   ```
   git config --global --add safe.directory <FolderPath>
   
   ```
+  Example of this command:`git config --global --add safe.directory /storage/emulated/0/Download/FileName`
 
 5. Add the files in the folder to the Git repository using the `git add .` command:
 
