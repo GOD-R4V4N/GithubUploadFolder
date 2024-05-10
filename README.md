@@ -36,7 +36,9 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
 4. Add your Github username using the `git config --global user.name` command:
     
    ```
+
    git config --global user.name "YourUsername"
+
    ```
 5. Navigate to the folder you want to upload to your GitHub repository using the `cd` command:
 
