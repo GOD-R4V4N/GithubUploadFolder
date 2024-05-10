@@ -120,4 +120,3 @@ Replace `master` with the name of your branch.
 After running these commands, your folder and its files will be uploaded to your GitHub repository. You can check your repository on the GitHub website to confirm that the files have been uploaded successfully.
 
 - If you found this tutorial helpful, please consider subscribing to my [Telegram Group](https://t.me/Ravan_Lankaa) to support my work! I create tech-related content that you might find useful, and I would really appreciate your support. Thank you for using my tutorial, and I hope it was helpful to you!
-- 
