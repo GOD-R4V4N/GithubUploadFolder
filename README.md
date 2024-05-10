@@ -28,6 +28,7 @@ To upload a folder and its files to a GitHub repository using Termux, you can fo
 
 3. And 4. are comming soon 
 
+
 5. Navigate to the folder you want to upload to your GitHub repository using the `cd` command:
 
    ```
